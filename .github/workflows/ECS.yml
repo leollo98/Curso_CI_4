@@ -1,1 +1,10 @@
+name: Entrega continua
 
+on:
+  workflow_call:
+
+jobs:
+
+  ECS:
+    runs-on: ubuntu-latest
+    steps:
